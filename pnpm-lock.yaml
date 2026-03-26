@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@uncenter/quickbench':
+        specifier: ^0.1.0
+        version: 0.1.0
+
+packages:
+
+  '@uncenter/quickbench@0.1.0':
+    resolution: {integrity: sha512-DI7mE8kowKEvZ2A0NrLBdPshm8g+1CfRSsbILersXfVxZynOYIyjMvDL7Vd4E+yLKuZHaXUjbaZXXT0vbMRqdg==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+
+  tinybench@2.9.0:
+    resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
+
+snapshots:
+
+  '@uncenter/quickbench@0.1.0':
+    dependencies:
+      tinybench: 2.9.0
+
+  tinybench@2.9.0: {}
